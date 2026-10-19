@@ -1,0 +1,42 @@
+name: StudioNet regret-planning proofs
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: regret-cart-studionet
+  cancel-in-progress: false
+jobs:
+  prove:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install pinned tooling
+        run: |
+          pip install -r requirements-dev.txt
+          npm install --global genlayer@0.39.2
+          genvm-lint download --version v0.2.16
+      - name: Lint and direct tests
+        run: |
+          genvm-lint check contracts/regret_cart.py --json
+          python -m pytest tests/direct -q --junitxml=proofs/cloud-direct-tests.xml
+      - name: Prepare disposable encrypted CLI wallet
+        run: node scripts/bootstrap-ci.cjs
+      - name: Deploy and execute four distinct scenarios
+        run: node scripts/live-proof.cjs
+      - name: Verify fresh source, calldata, votes and complete decisions
+        run: node scripts/verify-proofs.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: studionet-proofs
+          path: |
+            proofs/*.json
+            proofs/*.xml
