@@ -1,0 +1,87 @@
+{
+  "configuration": {
+    "budget": 8,
+    "capacity": 3,
+    "holding": [
+      1,
+      1
+    ],
+    "period": "market-day",
+    "purchase": [
+      2,
+      3
+    ],
+    "repository": "mahdidaawsh-commits/regret-cart",
+    "sha256": "220352d64f1a119ae535381b8299ca207e70877e464c706efd10b71baf60a923",
+    "shortage": [
+      3,
+      12
+    ],
+    "stock": [
+      0,
+      0
+    ],
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/regret-cart/f511e82ae55e65488166a2b46cf87403b23e1df2/records/unknown.json"
+  },
+  "evidence": {
+    "rows": [
+      {
+        "anchors": [
+          0
+        ],
+        "field": "amber_min",
+        "value": 0
+      },
+      {
+        "anchors": [
+          0
+        ],
+        "field": "amber_max",
+        "value": 8
+      },
+      {
+        "anchors": [
+          0
+        ],
+        "field": "blue_min",
+        "value": 0
+      },
+      {
+        "anchors": [
+          0
+        ],
+        "field": "blue_max",
+        "value": 8
+      },
+      {
+        "anchors": [
+          1
+        ],
+        "field": "total_min",
+        "value": 4
+      },
+      {
+        "anchors": [
+          1,
+          2
+        ],
+        "field": "total_max",
+        "value": -1
+      }
+    ],
+    "source": {
+      "clauses": [
+        "The market-day scenario envelope sets amber demand between zero and eight units inclusive, and blue demand between zero and eight units inclusive.",
+        "Combined amber plus blue demand has a minimum of four units. Its maximum is not established by this report and requires a later decision.",
+        "A point forecast of ten combined units is illustrative only and does not provide the missing scenario maximum."
+      ],
+      "period": "market-day"
+    }
+  },
+  "result": {
+    "status": "REVIEW",
+    "unknown": [
+      "total_max"
+    ]
+  }
+}

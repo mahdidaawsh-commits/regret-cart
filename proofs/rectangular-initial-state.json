@@ -1,0 +1,30 @@
+{
+  "configuration": {
+    "budget": 8,
+    "capacity": 3,
+    "holding": [
+      1,
+      1
+    ],
+    "period": "market-day",
+    "purchase": [
+      2,
+      3
+    ],
+    "repository": "mahdidaawsh-commits/regret-cart",
+    "sha256": "59b09deb185cd71b46df5ff9c0924bae548dc50d2aac70bbeda8231a7040c8e9",
+    "shortage": [
+      3,
+      12
+    ],
+    "stock": [
+      0,
+      0
+    ],
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/regret-cart/f511e82ae55e65488166a2b46cf87403b23e1df2/records/rectangular.json"
+  },
+  "evidence": {},
+  "result": {
+    "status": "UNSOLVED"
+  }
+}

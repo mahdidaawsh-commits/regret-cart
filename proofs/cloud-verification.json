@@ -1,0 +1,162 @@
+{
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-19T12:30:29.291Z",
+  "source_sha256": "de58342fef8151bef9fb72028583fa1fb47c74d499e42058ab5dce9c74fd174b",
+  "instances": [
+    {
+      "id": "correlated",
+      "contract": "0x41367332cD218A515e44aeFc6CABbF85A5A9a39C",
+      "status": "PLANNED",
+      "selection": {
+        "max_regret": 10,
+        "order": [
+          1,
+          2
+        ],
+        "witness": {
+          "cost": 31,
+          "demand": [
+            8,
+            0
+          ],
+          "hindsight_cost": 21,
+          "hindsight_order": [
+            3,
+            0
+          ]
+        },
+        "worst_cost": 81
+      }
+    },
+    {
+      "id": "rectangular",
+      "contract": "0x72539b983c736D84b7Fd5E72d93655Cb82EDa544",
+      "status": "PLANNED",
+      "selection": {
+        "max_regret": 10,
+        "order": [
+          0,
+          1
+        ],
+        "witness": {
+          "cost": 18,
+          "demand": [
+            1,
+            2
+          ],
+          "hindsight_cost": 8,
+          "hindsight_order": [
+            1,
+            2
+          ]
+        },
+        "worst_cost": 111
+      }
+    },
+    {
+      "id": "unknown",
+      "contract": "0x6C89E63874688b25Fbf44351Dce659E7a2fF781C",
+      "status": "REVIEW"
+    },
+    {
+      "id": "conflict",
+      "contract": "0x48FF6b1247fF38dcfF9c0Afcb623591fC666E85a",
+      "status": "INCONSISTENT"
+    }
+  ],
+  "transactions": [
+    {
+      "label": "correlated-deployment",
+      "hash": "0x7ca2431ab19c31a2980b1dc359c1c24eac018dd106b84c1ac1aa32afbff981ec",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "correlated-solve",
+      "hash": "0xfc05d2051ce0cf2d1fc19113fd70ada098ef74cda9743b4ff107dc4102d810b5",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "correlated-repeat",
+      "hash": "0x05a508bdcfd6486c09964068c4f6aa2f6993f741a8388779a84f38f70ea1d986",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1
+    },
+    {
+      "label": "rectangular-deployment",
+      "hash": "0x4294f9b060b416f5f1160ff180cc5ad2ea8ea34c27e07935c495a523a7059d60",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1
+    },
+    {
+      "label": "rectangular-solve",
+      "hash": "0x8bb119bb034d3220a1d2c73d6bf6eb068c224759cd7a70f06c1f4b9644a0a59a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "unknown-deployment",
+      "hash": "0x9abdb031f168d6279ff4a8efd3b9f8faf930383c1fd53e202d0a93cbb132e423",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1
+    },
+    {
+      "label": "unknown-solve",
+      "hash": "0x7bbc58f671cc1631620b6652481139ca6590483c21b2ce765e0ae60fecc4d26a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "conflict-deployment",
+      "hash": "0xf013e637f35e993f764d27b04dbc669aadc6aebadb642904ed334dc46c39e4d9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "conflict-solve",
+      "hash": "0x349d1eaf26b97df1f3d5d23e8775bb4f20d01781ebd52f665d8319ee7a0157e1",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

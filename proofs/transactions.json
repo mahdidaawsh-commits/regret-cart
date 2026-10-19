@@ -1,0 +1,14 @@
+{
+  "source_sha256": "de58342fef8151bef9fb72028583fa1fb47c74d499e42058ab5dce9c74fd174b",
+  "hashes": {
+    "correlated-deployment": "0x7ca2431ab19c31a2980b1dc359c1c24eac018dd106b84c1ac1aa32afbff981ec",
+    "correlated-solve": "0xfc05d2051ce0cf2d1fc19113fd70ada098ef74cda9743b4ff107dc4102d810b5",
+    "correlated-repeat": "0x05a508bdcfd6486c09964068c4f6aa2f6993f741a8388779a84f38f70ea1d986",
+    "rectangular-deployment": "0x4294f9b060b416f5f1160ff180cc5ad2ea8ea34c27e07935c495a523a7059d60",
+    "rectangular-solve": "0x8bb119bb034d3220a1d2c73d6bf6eb068c224759cd7a70f06c1f4b9644a0a59a",
+    "unknown-deployment": "0x9abdb031f168d6279ff4a8efd3b9f8faf930383c1fd53e202d0a93cbb132e423",
+    "unknown-solve": "0x7bbc58f671cc1631620b6652481139ca6590483c21b2ce765e0ae60fecc4d26a",
+    "conflict-deployment": "0xf013e637f35e993f764d27b04dbc669aadc6aebadb642904ed334dc46c39e4d9",
+    "conflict-solve": "0x349d1eaf26b97df1f3d5d23e8775bb4f20d01781ebd52f665d8319ee7a0157e1"
+  }
+}

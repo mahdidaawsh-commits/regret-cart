@@ -1,0 +1,84 @@
+{
+  "configuration": {
+    "budget": 8,
+    "capacity": 3,
+    "holding": [
+      1,
+      1
+    ],
+    "period": "market-day",
+    "purchase": [
+      2,
+      3
+    ],
+    "repository": "mahdidaawsh-commits/regret-cart",
+    "sha256": "ba278243523914cc4b1b9852aab73e097b37d26aac16492945a53512529eb795",
+    "shortage": [
+      3,
+      12
+    ],
+    "stock": [
+      0,
+      0
+    ],
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/regret-cart/f511e82ae55e65488166a2b46cf87403b23e1df2/records/conflict.json"
+  },
+  "evidence": {
+    "rows": [
+      {
+        "anchors": [
+          1
+        ],
+        "field": "amber_min",
+        "value": 0
+      },
+      {
+        "anchors": [
+          1
+        ],
+        "field": "amber_max",
+        "value": 2
+      },
+      {
+        "anchors": [
+          1
+        ],
+        "field": "blue_min",
+        "value": 0
+      },
+      {
+        "anchors": [
+          1
+        ],
+        "field": "blue_max",
+        "value": 2
+      },
+      {
+        "anchors": [
+          2
+        ],
+        "field": "total_min",
+        "value": 7
+      },
+      {
+        "anchors": [
+          2
+        ],
+        "field": "total_max",
+        "value": 8
+      }
+    ],
+    "source": {
+      "clauses": [
+        "This report defines demand scenarios for products amber and blue during market-day in integer units.",
+        "Amber demand is between zero and two units inclusive. Blue demand is between zero and two units inclusive.",
+        "Combined amber plus blue demand is between seven and eight units inclusive for the same period. All three restrictions are mandatory, even if they admit no joint demand."
+      ],
+      "period": "market-day"
+    }
+  },
+  "result": {
+    "demand_count": 0,
+    "status": "INCONSISTENT"
+  }
+}

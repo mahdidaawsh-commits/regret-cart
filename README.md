@@ -19,6 +19,8 @@ The pinned GenVM runner is in the first source line. Public methods are `solve()
 
 [Contract](contracts/regret_cart.py) · [Design and trust boundary](docs/design.md) · [Proofs](proofs/README.md) · [Submission text](docs/submission.md).
 
+Deployed on gasless StudioNet: [contract explorer](https://explorer-studio.genlayer.com/address/0x41367332cD218A515e44aeFc6CABbF85A5A9a39C). **63 tests passed; nine finalized MAJORITY_AGREE receipts** cover four scenarios and one expected rejection. Full receipts retain the conflict scenario's dissenting vote. The correlated report selects [1,2]; the rectangular report selects [0,1]; uncertainty produces REVIEW; infeasibility produces INCONSISTENT.
+
 The mathematical minimax-regret criterion is established decision theory, not a claimed invention. This repository's contribution is its bounded, independently validated GenLayer implementation and complete replayable decision artifacts. Generic CLI transport and the Windows direct-test workaround reuse MIT-licensed infrastructure from [VectorReserve](https://github.com/gabrieladash123-bit/vector-reserve); the inventory mechanism and its tests are new.
 
 Fixtures are synthetic scenario reports, not verified forecasts, real sales or supplier delivery. The contract creates an immutable planning decision; it neither purchases inventory nor moves tokens or funds.

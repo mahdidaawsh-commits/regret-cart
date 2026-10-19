@@ -1,0 +1,287 @@
+{
+  "configuration": {
+    "budget": 8,
+    "capacity": 3,
+    "holding": [
+      1,
+      1
+    ],
+    "period": "market-day",
+    "purchase": [
+      2,
+      3
+    ],
+    "repository": "mahdidaawsh-commits/regret-cart",
+    "sha256": "59b09deb185cd71b46df5ff9c0924bae548dc50d2aac70bbeda8231a7040c8e9",
+    "shortage": [
+      3,
+      12
+    ],
+    "stock": [
+      0,
+      0
+    ],
+    "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/regret-cart/f511e82ae55e65488166a2b46cf87403b23e1df2/records/rectangular.json"
+  },
+  "evidence": {
+    "rows": [
+      {
+        "anchors": [
+          1
+        ],
+        "field": "amber_min",
+        "value": 0
+      },
+      {
+        "anchors": [
+          1
+        ],
+        "field": "amber_max",
+        "value": 8
+      },
+      {
+        "anchors": [
+          1
+        ],
+        "field": "blue_min",
+        "value": 0
+      },
+      {
+        "anchors": [
+          1
+        ],
+        "field": "blue_max",
+        "value": 8
+      },
+      {
+        "anchors": [
+          2
+        ],
+        "field": "total_min",
+        "value": 0
+      },
+      {
+        "anchors": [
+          2
+        ],
+        "field": "total_max",
+        "value": 16
+      }
+    ],
+    "source": {
+      "clauses": [
+        "This is the integer demand scenario envelope for products amber and blue for market-day.",
+        "Amber demand ranges from zero to eight units inclusive; blue demand also ranges from zero to eight units inclusive.",
+        "Combined amber plus blue demand for market-day ranges from zero to sixteen units inclusive. No tighter joint-demand restriction is imposed."
+      ],
+      "period": "market-day"
+    }
+  },
+  "result": {
+    "action_count": 9,
+    "demand_count": 81,
+    "profiles": [
+      {
+        "max_regret": 19,
+        "order": [
+          0,
+          0
+        ],
+        "witness": {
+          "cost": 27,
+          "demand": [
+            1,
+            2
+          ],
+          "hindsight_cost": 8,
+          "hindsight_order": [
+            1,
+            2
+          ]
+        },
+        "worst_cost": 120
+      },
+      {
+        "max_regret": 10,
+        "order": [
+          0,
+          1
+        ],
+        "witness": {
+          "cost": 18,
+          "demand": [
+            1,
+            2
+          ],
+          "hindsight_cost": 8,
+          "hindsight_order": [
+            1,
+            2
+          ]
+        },
+        "worst_cost": 111
+      },
+      {
+        "max_regret": 11,
+        "order": [
+          0,
+          2
+        ],
+        "witness": {
+          "cost": 17,
+          "demand": [
+            3,
+            0
+          ],
+          "hindsight_cost": 6,
+          "hindsight_order": [
+            3,
+            0
+          ]
+        },
+        "worst_cost": 102
+      },
+      {
+        "max_regret": 21,
+        "order": [
+          1,
+          0
+        ],
+        "witness": {
+          "cost": 27,
+          "demand": [
+            0,
+            2
+          ],
+          "hindsight_cost": 6,
+          "hindsight_order": [
+            0,
+            2
+          ]
+        },
+        "worst_cost": 119
+      },
+      {
+        "max_regret": 12,
+        "order": [
+          1,
+          1
+        ],
+        "witness": {
+          "cost": 18,
+          "demand": [
+            0,
+            2
+          ],
+          "hindsight_cost": 6,
+          "hindsight_order": [
+            0,
+            2
+          ]
+        },
+        "worst_cost": 110
+      },
+      {
+        "max_regret": 11,
+        "order": [
+          1,
+          2
+        ],
+        "witness": {
+          "cost": 11,
+          "demand": [
+            0,
+            0
+          ],
+          "hindsight_cost": 0,
+          "hindsight_order": [
+            0,
+            0
+          ]
+        },
+        "worst_cost": 101
+      },
+      {
+        "max_regret": 24,
+        "order": [
+          2,
+          0
+        ],
+        "witness": {
+          "cost": 30,
+          "demand": [
+            0,
+            2
+          ],
+          "hindsight_cost": 6,
+          "hindsight_order": [
+            0,
+            2
+          ]
+        },
+        "worst_cost": 118
+      },
+      {
+        "max_regret": 15,
+        "order": [
+          2,
+          1
+        ],
+        "witness": {
+          "cost": 21,
+          "demand": [
+            0,
+            2
+          ],
+          "hindsight_cost": 6,
+          "hindsight_order": [
+            0,
+            2
+          ]
+        },
+        "worst_cost": 109
+      },
+      {
+        "max_regret": 27,
+        "order": [
+          3,
+          0
+        ],
+        "witness": {
+          "cost": 33,
+          "demand": [
+            0,
+            2
+          ],
+          "hindsight_cost": 6,
+          "hindsight_order": [
+            0,
+            2
+          ]
+        },
+        "worst_cost": 117
+      }
+    ],
+    "selection": {
+      "max_regret": 10,
+      "order": [
+        0,
+        1
+      ],
+      "witness": {
+        "cost": 18,
+        "demand": [
+          1,
+          2
+        ],
+        "hindsight_cost": 8,
+        "hindsight_order": [
+          1,
+          2
+        ]
+      },
+      "worst_cost": 111
+    },
+    "status": "PLANNED"
+  }
+}

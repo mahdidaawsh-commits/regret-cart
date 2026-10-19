@@ -1,0 +1,143 @@
+[
+  {
+    "id": "correlated",
+    "args": [
+      "mahdidaawsh-commits/regret-cart",
+      "market-day",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/regret-cart/f511e82ae55e65488166a2b46cf87403b23e1df2/records/correlated.json",
+      "75ea8c7de262222183fa4c8c2d8d2572851967894e7d52389215b1ae81af73c6",
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        12
+      ],
+      3,
+      8
+    ],
+    "contract": "0x41367332cD218A515e44aeFc6CABbF85A5A9a39C",
+    "deployment": "0x7ca2431ab19c31a2980b1dc359c1c24eac018dd106b84c1ac1aa32afbff981ec",
+    "sender": "0xb110ea74ca2ee9c184866e3c1eab79035c12dca2",
+    "fixture_revision": "f511e82ae55e65488166a2b46cf87403b23e1df2",
+    "source_sha256": "de58342fef8151bef9fb72028583fa1fb47c74d499e42058ab5dce9c74fd174b",
+    "network": "studionet",
+    "chain_id": 61999,
+    "solve": "0xfc05d2051ce0cf2d1fc19113fd70ada098ef74cda9743b4ff107dc4102d810b5",
+    "repeat": "0x05a508bdcfd6486c09964068c4f6aa2f6993f741a8388779a84f38f70ea1d986"
+  },
+  {
+    "id": "rectangular",
+    "args": [
+      "mahdidaawsh-commits/regret-cart",
+      "market-day",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/regret-cart/f511e82ae55e65488166a2b46cf87403b23e1df2/records/rectangular.json",
+      "59b09deb185cd71b46df5ff9c0924bae548dc50d2aac70bbeda8231a7040c8e9",
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        12
+      ],
+      3,
+      8
+    ],
+    "contract": "0x72539b983c736D84b7Fd5E72d93655Cb82EDa544",
+    "deployment": "0x4294f9b060b416f5f1160ff180cc5ad2ea8ea34c27e07935c495a523a7059d60",
+    "sender": "0xb110ea74ca2ee9c184866e3c1eab79035c12dca2",
+    "fixture_revision": "f511e82ae55e65488166a2b46cf87403b23e1df2",
+    "source_sha256": "de58342fef8151bef9fb72028583fa1fb47c74d499e42058ab5dce9c74fd174b",
+    "network": "studionet",
+    "chain_id": 61999,
+    "solve": "0x8bb119bb034d3220a1d2c73d6bf6eb068c224759cd7a70f06c1f4b9644a0a59a"
+  },
+  {
+    "id": "unknown",
+    "args": [
+      "mahdidaawsh-commits/regret-cart",
+      "market-day",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/regret-cart/f511e82ae55e65488166a2b46cf87403b23e1df2/records/unknown.json",
+      "220352d64f1a119ae535381b8299ca207e70877e464c706efd10b71baf60a923",
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        12
+      ],
+      3,
+      8
+    ],
+    "contract": "0x6C89E63874688b25Fbf44351Dce659E7a2fF781C",
+    "deployment": "0x9abdb031f168d6279ff4a8efd3b9f8faf930383c1fd53e202d0a93cbb132e423",
+    "sender": "0xb110ea74ca2ee9c184866e3c1eab79035c12dca2",
+    "fixture_revision": "f511e82ae55e65488166a2b46cf87403b23e1df2",
+    "source_sha256": "de58342fef8151bef9fb72028583fa1fb47c74d499e42058ab5dce9c74fd174b",
+    "network": "studionet",
+    "chain_id": 61999,
+    "solve": "0x7bbc58f671cc1631620b6652481139ca6590483c21b2ce765e0ae60fecc4d26a"
+  },
+  {
+    "id": "conflict",
+    "args": [
+      "mahdidaawsh-commits/regret-cart",
+      "market-day",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/regret-cart/f511e82ae55e65488166a2b46cf87403b23e1df2/records/conflict.json",
+      "ba278243523914cc4b1b9852aab73e097b37d26aac16492945a53512529eb795",
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        12
+      ],
+      3,
+      8
+    ],
+    "contract": "0x48FF6b1247fF38dcfF9c0Afcb623591fC666E85a",
+    "deployment": "0xf013e637f35e993f764d27b04dbc669aadc6aebadb642904ed334dc46c39e4d9",
+    "sender": "0xb110ea74ca2ee9c184866e3c1eab79035c12dca2",
+    "fixture_revision": "f511e82ae55e65488166a2b46cf87403b23e1df2",
+    "source_sha256": "de58342fef8151bef9fb72028583fa1fb47c74d499e42058ab5dce9c74fd174b",
+    "network": "studionet",
+    "chain_id": 61999,
+    "solve": "0x349d1eaf26b97df1f3d5d23e8775bb4f20d01781ebd52f665d8319ee7a0157e1"
+  }
+]
